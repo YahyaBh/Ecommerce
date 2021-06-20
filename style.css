@@ -1,0 +1,901 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap');
+@media screen and (max-width: 900px) {
+    .shoes {
+        width: 700px;
+    }
+    .clothes {
+        margin-left: -20px;
+    }
+    .form-inline {
+        margin-bottom: 20px;
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+}
+
+ol {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #fff !important;
+    background-color: #fff !important;
+    padding: 50px;
+    box-shadow: none;
+}
+
+.navbar-sec {
+    background-color: #fff !important;
+    background-color: #fff !important;
+    padding: 0px;
+    box-shadow: none;
+}
+
+.name-c {
+    background-color: white;
+    border: 3px solid black;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-search {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.search-inpt-c {
+    border: none;
+}
+
+.form-control-c {
+    transition: all 0.3s ease;
+}
+
+.form-control-c:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffffff;
+    outline: 0;
+    box-shadow: 0, 0, 0, 0.2rem rgba(107, 109, 111, 0)!important;
+    margin: 3px;
+}
+
+.nav-i {
+    color: rgb(128, 128, 128);
+    transition: all 0.5s ease;
+}
+
+.nav-i:hover {
+    color: #7971ea;
+    transform: scale(1.1);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #7971ea;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:active {
+    color: #7971ea;
+}
+
+.bg-danger {
+    background-color: #7971ea!important;
+}
+
+.hd-c {
+    background-color: rgb(166, 243, 237);
+}
+
+.title-hd-h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.title-hd-p {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.shp-btn {
+    background-color: #7971ea;
+    padding: 16px 30px;
+    border-radius: 4px;
+    transition: all 0.4s ease;
+    border: none;
+}
+
+.shp-btn:hover {
+    background-color: #594fe6;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 10px 15px #594fe6;
+}
+
+.shp-btn a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.sec-ic-c {
+    color: #594fe6;
+}
+
+.sec-h3-c {
+    font-size: 22px;
+    text-align: left;
+}
+
+.sec-p-c {
+    text-align: left;
+    color: rgb(122, 122, 122);
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.section3-img {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.section3-text {
+    position: absolute !important;
+    bottom: 5px;
+    left: 35px;
+}
+
+.section3-text h3 {
+    font-weight: 500;
+}
+
+.section3-img1 {
+    overflow: hidden;
+}
+
+.section3-img .section3-img1 img {
+    filter: brightness(25%);
+    width: 100%;
+    transition: all ease 1s;
+}
+
+.section3-img .section3-img1 img:hover {
+    transform: scale(1.1);
+    filter: brightness(100%);
+}
+
+.sec-sect {
+    background-color: rgb(240, 238, 238);
+}
+
+.t-a-c {
+    text-align: center;
+}
+
+.h2-sec-sec {
+    text-align: center;
+    letter-spacing: 1.2px;
+    margin-bottom: 40px;
+}
+
+.line-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line {
+    width: 50px;
+    border: 3px solid #594fe6;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 2px;
+}
+
+.sec-2-h3 {
+    color: #594fe6;
+    font-size: 24px;
+}
+
+.sec-2-p {
+    color: #594fe6;
+    font-size: 18px;
+}
+
+.first-col {
+    justify-content: center;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.sec-sec-h2-t {
+    color: #594fe6;
+    font-size: 36px;
+}
+
+.p-description {
+    color: rgb(184, 182, 182);
+}
+
+.ft-end-c {
+    text-align: center;
+}
+
+/*---------------------------footer----------------------------------*/
+
+.email {
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    transition: all .5s ease;
+    border-radius: 6px;
+    border: 1px solid #7971ea;
+    height: 40px;
+    width: 255px;
+}
+
+.email:focus {
+    border: #7971ea 1px solid;
+    box-shadow: 0px 0px 8px 5px #594fe6;
+    border-radius: 20px;
+}
+
+.sub-btn {
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #7971ea;
+    border: 1px solid #7971ea;
+    width: 90px;
+    color: white;
+    transition: all .7s ease;
+}
+
+.sub-btn:hover {
+    width: 100px;
+    box-shadow: #594fe6 0px 0px 8px 2px;
+    background-color: #594fe6;
+    color: black;
+    border-radius: 50px;
+    border: #7971ea 1px solid;
+}
+
+.a-ft-c {
+    color: #495057b7;
+    text-align: left;
+    text-decoration: none;
+    transition: all .8s ease;
+}
+
+.a-ft-c:hover {
+    color: #594fe6;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.h2-ft-t {
+    text-align: left;
+    color: black;
+    text-decoration: underline #594fe6;
+}
+
+.icon-ft-c {
+    color: #594fe6;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
+.Contact-a {
+    color: #7971ea;
+    text-decoration: none;
+}
+
+.Contact-a:hover {
+    color: #594fe6;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.p-ft-t {
+    color: #594fe6;
+    font-size: 20px;
+    line-height: 1rem;
+}
+
+/*---------------------------about---------------------------------*/
+
+.team-img {
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 160px;
+}
+
+.texts-for-team {
+    text-align: center;
+}
+
+.texts-for-team-h {
+    color: #495057af;
+}
+
+.texts-for-team-p {
+    color: rgb(112, 111, 111);
+}
+
+/*---------------------------shop------------------------------------*/
+
+.shoppong-pd {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.h2-shp {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type="range"]::-moz-range-progress {
+        background-color: #594fe6;
+        border: #594fe6;
+        outline: #594fe6;
+    }
+    input[type="range"]::-moz-range-track {
+        background-color: #495057;
+        height: 2px;
+        border-radius: 2px;
+        border: #594fe6;
+        outline: #594fe6;
+    }
+}
+
+.drp-shp {
+    float: right;
+    margin-left: 4px;
+}
+
+.h5-shp-t-c {
+    float: left;
+    margin-top: 4px;
+}
+
+.check-shp {
+    text-align: left;
+}
+
+.sing-a-c {
+    filter: brightness(35%);
+    transition: all .5s ease;
+}
+
+.sing-a-c:hover {
+    filter: brightness(100%);
+    text-decoration: none;
+}
+
+.card {
+    box-shadow: none !important;
+    border-radius: 2px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 30px 4px #7971ea !important;
+}
+
+.page-it-c {
+    text-align: center;
+    border-radius: 40px !important;
+    color: #7971ea;
+}
+
+.page-item {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.page-link:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #594fe6;
+    border-color: #594fe6;
+}
+
+/*----------------------- signle product----------------------------------*/
+
+.price-sing-pr {
+    color: #7971ea;
+}
+
+.add-to-cart-btn {
+    width: 140px;
+    height: 40px;
+    background-color: #7971ea;
+    border: #7971ea;
+    outline: none;
+    border-radius: 4px;
+}
+
+.add-to-cart-btn a {
+    color: white;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #594fe6;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    box-shadow: 0px 10px 15px #594fe6;
+    margin-top: 2px;
+}
+
+.number-input input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.number-input input[type=number]::-webkit-inner-spin-button, .number-input input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.number-input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.number-input button {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+
+.number-input button:before, .number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    height: 2px;
+    transform: translate(-50%, -50%);
+}
+
+.number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+    text-align: center;
+}
+
+.number-input.number-input {
+    border: 1px solid #ced4da;
+    width: 10rem;
+    border-radius: .25rem;
+    transition: all .5s ease;
+}
+
+.number-input.number-input:hover {
+    background-color: #594fe6;
+    color: white;
+}
+
+.number-input.number-input button {
+    width: 2.6rem;
+    height: .7rem;
+}
+
+.number-input.number-input button.minus {
+    padding-left: 10px;
+}
+
+.number-input.number-input button:before, .number-input.number-input button:after {
+    width: .7rem;
+    background-color: black;
+}
+
+.number-input.number-input button:before, .number-input.number-input button:after:hover {
+    width: .7rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.number-input.number-input button:before, .number-input.number-input button:before:hover {
+    width: .7rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.number-input.number-input input[type=number] {
+    max-width: 4rem;
+    padding: .5rem;
+    border: 1px solid #ced4da;
+    border-width: 0 1px;
+    font-size: 1rem;
+    height: 2rem;
+    color: #7971ea;
+}
+
+@media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance: none) and (stroke-color:transparent) {
+        .number-input.def-number-input.safari_only button:before, .number-input.def-number-input.safari_only button:after {
+            margin-top: -.3rem;
+        }
+    }
+}
+
+/*-----------------------cart--------------------------*/
+
+table {
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    border-radius: 2px;
+}
+
+td {
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+}
+
+td img {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+th {
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+}
+
+tr {
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+}
+
+.nmb-c {
+    width: 200px;
+    height: 34px;
+    margin: auto;
+}
+
+.remove-btn {
+    background-color: #594fe6;
+    border: #594fe6;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.remove-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.remove-btn a:hover {
+    color: white;
+}
+
+.upd-cart {
+    background-color: #594fe6;
+    height: 40px;
+    width: 200px;
+    outline: none;
+    border: #594fe6 1px solid;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.upd-cart a {
+    color: white;
+    text-decoration: none;
+}
+
+.cnt-shp {
+    background-color: #fff;
+    border: #594fe6 1px solid;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.cnt-shp a {
+    color: #594fe6;
+    text-decoration: none;
+}
+
+.cpn-inpt {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: none;
+    border: #594fe6 1px solid;
+    transition: all 0.3s ease;
+}
+
+.cpn-inpt:focus {
+    background-color: #ced4da;
+    height: 41px;
+}
+
+.cpn-inpt-btn {
+    width: 140px;
+    height: 32px;
+    background-color: #594fe6;
+    border: #594fe6 1px solid;
+    transition: all .4s ease;
+    color: white;
+    margin-top: 195px;
+    border-radius: 2px;
+}
+
+.cpn-inpt-btn:hover {
+    background-color: #495057;
+    letter-spacing: 1.7px;
+}
+
+.proc-a-c {
+    margin-top: 20px;
+    width: 240px;
+    height: 50px;
+    background-color: #594fe6;
+    border: #594fe6 1px solid;
+    border-radius: 2px;
+    transition: all 0.6s ease;
+}
+
+.proc-a-c a {
+    color: white;
+}
+
+.proc-a-c:hover {
+    background-color: #495057;
+    letter-spacing: 2px;
+}
+
+.proc-a-c a:hover {
+    text-decoration: none;
+}
+
+/* The container */
+
+.container-c {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+
+.container-c input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+
+.checkmark-r {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 15px;
+    width: 15px;
+    background-color: Red;
+    border-radius: 50%;
+}
+
+.checkmark-b {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.checkmark-g {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.checkmark-p {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 15px;
+    width: 15px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+/*----------------------Check Out----------------------------------*/
+
+.bill-det {
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+}
+
+.btn-secondary {
+    color: black;
+    background-color: #fff;
+    border: #495057 1px solid;
+    width: 100%;
+    height: 40px;
+    text-align: left;
+}
+
+.btn-secondary:hover {
+    background-color: #7971ea;
+}
+
+.name-check {
+    height: 40px;
+    border: #49505748 1px solid;
+    border-radius: 4px;
+    outline: none;
+}
+
+.c-name-check {
+    height: 40px;
+    width: 100%;
+    border: #49505748 1px solid;
+    border-radius: 4px;
+    outline: none;
+}
+
+.c-addr-check {
+    width: 100%;
+    height: 40px;
+    width: 100%;
+    border: #49505748 1px solid;
+    border-radius: 4px;
+    outline: none;
+}
+
+/*-----------------------------thank you for shopping--------------------------------*/
+
+.thx-fr-shp h4 {
+    text-align: center;
+    color: black;
+}
+
+.thx-fr-shp p {
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+}
+
+.button-center-thx {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-top: 220px;
+}
+
+.thx-fr-shp button {
+    background-color: #7971ea;
+    border: #7971ea 1px solid;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    border-radius: 2px;
+    transition: all 0.5s ease;
+}
+
+.thx-fr-shp button a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.thx-fr-shp button a:hover {
+    color: #495057;
+    text-decoration: none;
+}
+
+.thx-fr-shp button:hover {
+    background-color: #594fe6;
+    border: #594fe6 1px solid;
+    box-shadow: 0px 10px 15px #594fe6;
+}
+
+.pay-meth {
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.pay-meth a {
+    color: #594fe6;
+}
+
+.place-order {
+    width: 100%;
+    height: 50px;
+    background-color: #7971ea;
+    border: #7971ea 1px solid;
+    outline: none;
+    border-radius: 4px;
+    transition: all .5s ease;
+}
+
+.place-order a {
+    color: white;
+    text-decoration: none;
+}
+
+.place-order:hover {
+    transform: scale(1.03);
+    background-color: #495057;
+    box-shadow: 0px 10px 15px #594fe6;
+}
+
+/*--------------------------contact---------------------------------*/
+
+.city-field {
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+
+.city-field h5 {
+    color: #7971ea;
+    font-size: 18px;
+}

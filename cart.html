@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Shoes Shop | eCommers</title>
+    <link rel="icon" href="img/flushed-solid.svg" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <!--Main Nav-->
+    <nav class="navbar navbar-light bg-light">
+        <form class="form-inline">
+            <button class="btn-search my-2 my-sm-0" type="submit">
+                <i class="nav-i fas fa-search"></i>
+            </button>
+            <input class="search-inpt-c form-control-c mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+
+        <h2 class="name-c">YAHYA</h2>
+
+        <div class="d-flex align-items-center">
+            <a class="text-reset me-3" href="#">
+                <i class="nav-i fas fa-user-alt fa-lg"></i>
+            </a>
+
+            <a class="text-reset me-3" href="#">
+                <i class="nav-i far fa-heart fa-lg"></i>
+            </a>
+
+            <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="cart.html" id="navbarDropdownMenuLink"
+                role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                <i class="nav-i fas fa-shopping-cart fa-lg"></i>
+                <span class="badge rounded-pill badge-notification bg-danger">2</span>
+            </a>
+        </div>
+    </nav>
+
+    <hr style="color: gainsboro;">
+
+    <!--Pages Nav-->
+    <nav class="navbar-sec navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item active m-2">
+                    <a class="nav-link nav-links" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link nav-links" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link nav-links" href="shop.html">SHOP</a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link nav-links" href="#">CATALOGUE</a>
+                </li>
+                <li class="nav-item nav-links m-2">
+                    <a class="nav-link" href="#">NEW ARRIVALS</a>
+                </li>
+                <li class="nav-item nav-links m-2">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr style="color: gainsboro;">
+
+
+    <section style="text-align: center;">
+        <div class="container">
+            <table class="table-cart" style="width:100%">
+                <tr>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Remove</th>
+                </tr>
+                <tr>
+                    <td><img width="170px" src="img/cloth_1.jpg" alt="cloth_1"></td>
+                    <td>Tank Top T-Shirt</td>
+                    <td>$29.00</td>
+                    <td>
+                        <div class="def-number-input number-input safari_only nmb-c">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                class="minus"></button>
+                            <input class="quantity" min="1" max="50" name="quantity" value="1" type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                class="plus"></button>
+                        </div>
+                    </td>
+                    <td>$29.00</td>
+                    <td>
+                        <button class="remove-btn">
+                            <a href="">
+                                X
+                            </a>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img width="170px" src="img/cloth_3.jpg" alt="cloth_2"></td>
+                    <td>T-Shirt</td>
+                    <td>$33.00</td>
+                    <td>
+                        <div class="def-number-input number-input safari_only nmb-c">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                class="minus"></button>
+                            <input class="quantity" min="1" max="50" name="quantity" value="1" type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                class="plus"></button>
+                        </div>
+                    </td>
+                    <td>$33.00</td>
+                    <td>
+                        <button class="remove-btn">
+                            <a href="">
+                                X
+                            </a>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img width="170px" src="img/shoe.png" alt="cloth_2"></td>
+                    <td>Coater</td>
+                    <td>$49.00</td>
+                    <td>
+                        <div class="def-number-input number-input safari_only nmb-c">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                class="minus"></button>
+                            <input class="quantity" min="1" max="50" name="quantity" value="1" type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                class="plus"></button>
+                        </div>
+                    </td>
+                    <td>$49.00</td>
+                    <td>
+                        <button class="remove-btn">
+                            <a href="">
+                                X
+                            </a>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <button class="upd-cart">
+                        <a href="cart.html">
+                            UPDATE CART
+                        </a>
+                    </button>
+                    <button class="cnt-shp">
+                        <a href="shop.html">
+                            CONTINUE SHOPPING
+                        </a>
+                    </button>
+
+                    <div class="col-7 mt-5" style="text-align: left;">
+                        <h3>Coupon</h3>
+                        <p class="sec-p-c">Enter your coupon code if you have one</p>
+                        <input class="cpn-inpt validate" type="text" style="text-transform: uppercase;" max="12"
+                            min="12" placeholder="  XXXX-XXXX-XXXX">
+                    </div>
+                </div>
+                
+                <div class="col-lg-3">
+                    <input class="cpn-inpt-btn" type="submit" value="APPLY COUPON">
+                </div>
+
+                <div class="col-lg-4 mt-2">
+                    <h2>CART TOTALS</h2>
+                    <hr style="color: gray;">
+                    <br>
+                    <div style="overflow: hidden;">
+                        <p style="float: left;">Subtotal</p>
+                        <p style="float: right;">$110.00</p>
+                    </div>
+
+                    <div style="overflow: hidden;">
+                        <p style="float: left;">Total</p>
+                        <p style="float: right;">$200.00</p>
+                    </div>
+
+                    <button class="proc-a-c">
+                        <a href="checkou.html">
+                            PROCEED TO CHECKOUT 
+                        </a>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr style="color: gainsboro;">
+    <!--Main Footer-->
+    <footer class="mt-5 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="row">
+                        <div class="col-12 footer-h">
+                            <h2 class="h2-ft-t" href="">Navigations</h2>
+                        </div>
+                        <div class="col-4">
+                            <a class="a-ft-c" href="">Sell Online</a>
+                        </div>
+                        <div class="col-4">
+                            <a class="a-ft-c" href="">Mobile Commarce</a>
+
+                        </div>
+                        <div class="col-4">
+                            <a class="a-ft-c" href="">point of sail</a>
+
+                        </div>
+                        <div class="col-4">
+                            <a class="a-ft-c" href="">Feature</a>
+
+                        </div>
+                        <div class="col-4">
+                            <a class="a-ft-c" href="">Dropshopping</a>
+
+                        </div>
+                        <div class="col-4">
+                            <a class="a-ft-c" href="">Hardware</a>
+
+                        </div>
+                        <div class="col-4">
+                            <a class="a-ft-c" href="">Shopping Cart</a>
+
+                        </div>
+                        <div class="col-4">
+                            <a class="a-ft-c" href="">Websit Development</a>
+
+                        </div>
+                        <div class="col-4">
+                            <a class="a-ft-c" href="">Software</a>
+
+                        </div>
+                        <div class="col-4">
+                            <a class="a-ft-c" href="">Story Building</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="row">
+                        <div class="col-12 footer-h">
+                            <h2 class="h2-ft-t" href="">Promo</h2>
+                        </div>
+                        <div class="col-12">
+                            <img src="img/hero_1.jpg" width="100%" alt="promo">
+                        </div>
+                        <div class="col-12 footer-ele mt-4">
+                            <p class="p-ft-t">Finding Your Perfect shoes</p>
+                        </div>
+                        <div class="col-12">
+                            <p class="p-ft-t-c">promo from Carl 01-2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="row">
+                        <div class="col-12 footer-h">
+                            <h2 class="h2-ft-t" href="">Contact Info</h2>
+                        </div>
+                        <div class="col-10">
+                            <a class="Contact-a" href=""><i class="fas fa-map-marker-alt icon-ft-c"></i>305 , St N°5 San
+                                Fierro , Los
+                                Santos</a>
+                        </div>
+                        <div class="col-10 mt-3">
+                            <a class="Contact-a" href=""><i class="fas fa-phone-alt icon-ft-c"></i>+212 665845124</a>
+                        </div>
+                        <div class="col-10 mt-2 mb-4">
+                            <a class="Contact-a" href="">
+                                <i class="fas fa-envelope icon-ft-c"></i>gamesy865@gmail.com</a>
+                        </div>
+                        <div class="col-12 footer-h mt-5">
+                            <h5>SUBSCRIBE</h5>
+                        </div>
+                        <div class="col-12 mb-5">
+                            <div class="row footer-em">
+                                <div class="col-7">
+                                    <input class="email" type="email" placeholder="Email">
+                                </div>
+                                <div class="col-5">
+                                    <input class="sub-btn" type="submit" value="Subscribe">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr style="color: gainsboro;">
+                <div class="col-lg-12 col-md-12 ft-end-c">
+                    <p>copyright &#169;2021 all right reserved | this template is made <i class="fas fa-heart"></i>
+                        By<span> Yahya
+                            Bouhsine</span> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+
+
+
+    </div>
+</body>
+
+</html>
